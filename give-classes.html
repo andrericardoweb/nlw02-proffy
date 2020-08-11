@@ -85,7 +85,7 @@
 
         </fieldset>
 
-        <fieldset>
+        <fieldset id="schedule-items">
           <legend>
             Horários disponíveis
             <button id="add-time">+ Novo Horário</button>
@@ -105,6 +105,17 @@
                 <option value="6">Sábado</option>
               </select>
             </div> <!--select-block-->
+
+            <div class="input-block">
+              <label for="time_from">Das</label>
+              <input type="time" name="time_from[]" required>
+            </div> <!--input-block-->
+  
+            <div class="input-block">
+              <label for="time_to">Até</label>
+              <input type="time" name="time_to[]" required>
+            </div> <!--input-block-->
+            
           </div> <!--schedule-item-->
 
           <div class="schedule-item">
@@ -121,17 +132,20 @@
                 <option value="6">Sábado</option>
               </select>
             </div> <!--select-block-->
+
+            <div class="input-block">
+              <label for="time_from">Das</label>
+              <input type="time" name="time_from[]" required>
+            </div> <!--input-block-->
+  
+            <div class="input-block">
+              <label for="time_to">Até</label>
+              <input type="time" name="time_to[]" required>
+            </div> <!--input-block-->
+            
           </div> <!--schedule-item-->
 
-          <div class="input-block">
-            <label for="time_from">Das</label>
-            <input type="time" name="time_from[]" required>
-          </div> <!--input-block-->
-
-          <div class="input-block">
-            <label for="time_to">Até</label>
-            <input type="time" name="time_to[]" required>
-          </div> <!--input-block-->
+          
 
         </fieldset>
 
